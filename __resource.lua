@@ -6,17 +6,12 @@ version '1.0.0'
 
 dependency 'es_extended'
 
-server_scripts {
-	'@es_extended/locale.lua',
-	'locales/fr.lua',
-	'locales/en.lua',
-	'config.lua'
-}
-
 client_scripts {
 	'@es_extended/locale.lua',
-	'locales/fr.lua',
 	'locales/en.lua',
+	'locales/cn.lua',
+	'locales/zh.lua',
 	'config.lua',
+	'@es_extended/i18n.lua',
 	'client/main.lua'
 }

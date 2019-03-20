@@ -1,19 +1,7 @@
-**// ESX_VEHICLEINFOS //**
+# ESX_VEHICLEINFOS
+基于ESX框架的载具信息插件
+## 介绍
+"esx_vehicleInfos" 是我分享的第一个脚本！它可以让您了解前方车辆的信息！你只要看一辆车，然后按“E”键就行了。（原文机翻）
+## 如何安装
+我不想说，多简单
 
-**Introduction:**
-
-"esx_vehicleInfos" is my first script that i share! It allows you to have informations about a vehicle in front of you! You have just have to look a vehicle and press "E" key.
-
-There are 2 languages in the config file, **FR** and **EN**.
-
-**How to install it:**
-
-You only need ESX however this is a plug and play script. Put it in your resource folder and in your server.cfg and enjoy!
-
-If you have any questions don't hesitate! Be indulgent, it's my first share!
-
-**Screenshots:**
-
-https://prnt.sc/k6n9h2
-
-https://prnt.sc/k6n9de
