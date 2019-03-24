@@ -57,7 +57,7 @@ Citizen.CreateThread(function()
     while true do
         Citizen.Wait(0)
 
-        if IsControlJustPressed(1, Keys['E']) then -- If E key pressed then
+        if IsControlJustPressed(1, Keys['E']) and not IsPedInAnyVehicle(PlayerPedId(), true) then
 
             local playerPed = PlayerPedId()
 
@@ -155,7 +155,14 @@ Citizen.CreateThread(function()
                         value = nil
                     })
 
-                    ESX.UI.Menu.Open('default',GetCurrentResourceName(),'vehicle_infos',{title = _U('title'),align = 'top-left',elements = elements},function(data, menu) end,function(data, menu) 
+                    ESX.UI.Menu.Open('default',GetCurrentResourceName(),'vehicle_infos',{
+                        css = "vehicle_infos",
+                        title = _U('title'),
+                        align = 'top-left',
+                        elements = elements
+                    },function(data, menu) 
+
+                    end,function(data, menu) 
                         menu.close() 
                     end)
 
