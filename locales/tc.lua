@@ -1,4 +1,4 @@
-Locales['zh'] = {
+Locales['tc'] = {
   ['title']                     = '載具信息',
   ['diagnostic']                = '診斷載具',
 
